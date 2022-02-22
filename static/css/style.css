@@ -1,0 +1,87 @@
+body {
+    background: #f4f4f4;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    bottom:0;
+    background: #555;
+    background-image: url("../img/prev.svg");
+}
+.carousel-control-next-icon {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 60px;
+    bottom:0;
+    background: #555;
+    background-image: url("../img/next.svg");
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+}
+
+.project {
+    height: 280px;
+    width: 280px;
+    background-size: cover;
+}
+
+.project:nth-of-type(1) {
+    background-image: url("../img/project1.jpeg");
+}
+
+.project:nth-of-type(2) {
+    background-image: url("../img/project2.jpeg");
+}
+
+.project:nth-of-type(3) {
+    background-image: url("../img/project3.jpeg");
+}
+
+.project:nth-of-type(4) {
+    background-image: url("../img/project4.jpeg");
+}
+
+.project-desc {
+    font-size: smaller;
+}
+
+.testimonial ul {
+    list-style-image: url("../img/list.svg");
+}
+
+.testimonial li::marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person img {
+    height: 100px;
+    width: 100px;
+}
+
+.person p:nth-of-type(3) {
+    font-size: smaller;
+}
+
+footer {
+    background: #dadada;
+}
+
+footer ul {
+    list-style-image: url("../img/list-right.svg");
+    font-size: small;
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: auto;
+    }
+}
