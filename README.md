@@ -1,5 +1,5 @@
 # Practice-Bootstrap-Assignment
-**HTML CSS ASSIGNMENT** <br>
+**BOOTSTRAP-5 PRACTICE** <br>
 **ADDING FINAL PROJECT IMAGES**
 <br>
 
